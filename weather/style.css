@@ -1,0 +1,84 @@
+body {
+  display: flex;  
+}
+.card {
+  margin: 15px;
+  padding: 30px;
+  width: 350px;
+  border-radius: 18px;
+  border: 2px solid #000; 
+  color: rgb(255, 248, 248);
+  font-size: 30px;
+  font-family:serif;
+  background-color: rgb(6, 37, 90);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card-element {
+  margin: 20px;
+}
+
+.place {
+  font-size: 35px;
+}
+
+.temperature {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.winddirection {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.weathercode {
+  display: flex;
+  justify-content: center;
+   justify-content: center;
+  flex-direction: column;  
+  align-items: center;  
+  flex-wrap: wrap;  
+}
+
+.img-weathercode {
+  width: 200px;
+}
+.wetter{
+ text-align:center;
+display:flex ;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+width:100%;
+height:auto;
+margin-top:-8rem;
+}
+
+.wetter_jpg{
+  font-size: 2ch;
+  font-size: 1.8em;
+
+}
+
+/* Медиа-запрос для мобильных устройств */
+@media screen and (max-width: 414px) {
+  .card {
+    padding: 10px;
+  }
+
+  .place {
+    font-size: 20px;
+  }
+
+  .temperature {
+    font-size: 25px;
+  }
+}
